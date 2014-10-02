@@ -79,26 +79,34 @@ table {
 div > a{
     display: none;
 }
-ul{
+#menu ul{
     background-color: #9c9084;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
     height: 40px;
-    margin-left: 10px;
-    margin-right: 400px;
-    margin-bottom: 0px;
+    display: table;
 
 }
-ul li{
-     display: inline;
-     line-height: 50px;	
-
+#menu ul li{
+    display:table-cell;   
+    width: auto;
+   
     
 }
-ul li a{
+#menu ul li a{
 	font-size: 0.9em;
+	line-height: 40px;
 	font-family: Verdana, Arial, Sans Serif;
 	text-decoration: none;
-	padding: 0 10px;
 	color: #ffffff;
-	border-right: 1px solid #ffffff;
 	text-transform: capitalize;
+	display: block;
+	border-right: 1px solid #51473d;
+	padding-right: 1.5em;
+    padding-left: 1.5em;
+}
+.active{
+    background-color: #eae7d2;
+}
 }
