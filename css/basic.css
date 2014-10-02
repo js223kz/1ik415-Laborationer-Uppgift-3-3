@@ -49,16 +49,16 @@ table {
 
 #container{
     width: 960px;
+    height: auto;
     background-color: #eae7d2;
-    margin-right: auto;
-    margin-left: auto;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid #9c9084;
     background-image: url('pics/coffey.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: top;
-    background-size: 100% 300px;
+    background-size: 100% 290px;
 }
 #topbar{
     height: 30px;
@@ -68,8 +68,10 @@ table {
     font-family: "Times New Roman", Times, serif;
     font-style: italic;
     font-size: 0.9em;
+    text-align: right;
+    line-height: 30px;
+    
 }
-
 #menu{
     width: 100%;
     height: 50px;
@@ -81,7 +83,7 @@ div > a{
     display: none;
 }
 #menu ul{
-    background-color: #9c9084;
+    background-color: #797066;
     margin-left: 20px;
     margin-top: 10px;
     position: absolute;
@@ -101,14 +103,93 @@ div > a{
 	line-height: 40px;
 	font-family: Verdana, Arial, Sans Serif;
 	text-decoration: none;
-	color: #ffffff;
+	color: #eae7d2;
 	text-transform: capitalize;
 	display: block;
 	border-right: 1px solid #51473d;
 	padding-right: 1.5em;
     padding-left: 1.5em;
 }
+#menu a:hover {background-color: #9c9084; text-decoration: none; }
+
 .active{
     background-color: #eae7d2;
 }
+#content{
+    background-color: #eae7d2;
+    height: 470px;
+}
+#maincontent{
+    width: 50%;
+    float: left;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #eae7d2;
+    border-right: 1px dashed #51473d;
+}
+#maincontent h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+    width: 50%;
+    color: #797066;
+}
+#maincontent img{
+    margin-right: 10px;
+    float: left;
+}
+#maincontent p{
+    font-size: 0.9em;
+	line-height: 2em;
+	font-family: Verdana, Arial, sans-serif;
+	color: #797066;
+	margin-right: 10px;
+}
+#subcontent{
+    top: 30px;
+    height: 100%;
+    margin-left: 70px;
+    margin-right: 10px;
+    width: 40%;
+    float: left;
+}
+#subcontent h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.3em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #797066;
+}
+#subcontent p{
+    font-size: 0.7em;
+	line-height: 2em;
+	font-family: Verdana, Arial, sans-serif;
+	color: #797066;
+}
+h2{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.0em;
+    margin-top: 40px;
+    color: #797066;
+}
+#subcontent ul{
+    font-size: 1.0em;
+	line-height: 2em;
+	font-family: Verdana, Arial, sans-serif;
+	color: #797066;
+    
+}
+#subcontent a:link {text-decoration: underline; }
+#subcontent a:visited {color: purple; text-decoration: underline; }
+#subcontent a:hover {background-color: #9c9084; text-decoration: underline; }
+#subcontent a:active {color: orange; text-decoration: none; }
+
+#bottomcontent{
+    margin-left: 10px;
+    font-size: 0.7em;
+	line-height: 2em;
+	font-family: Verdana, Arial, sans-serif;
+	font-style: italic;
+	color: #797066;
 }
