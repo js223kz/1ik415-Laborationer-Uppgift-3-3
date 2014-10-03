@@ -114,10 +114,13 @@ div > a{
 
 .active{
     background-color: #eae7d2;
+    color: #797066;
 }
+
 #content{
     background-color: #eae7d2;
     height: 470px;
+    position: relative;
 }
 #maincontent{
     width: 50%;
@@ -192,4 +195,7 @@ h2{
 	font-family: Verdana, Arial, sans-serif;
 	font-style: italic;
 	color: #797066;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
 }
