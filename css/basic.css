@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 
+
 #container{
     width: 960px;
     height: auto;
@@ -124,12 +125,12 @@ div > a{
 }
 #maincontent{
     width: 50%;
-    float: left;
-    margin-left: 15px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    left: 15px;
+    top: 30px;
+    bottom: 30px;
     background-color: #eae7d2;
     border-right: 1px dashed #51473d;
+    position: absolute;
 }
 #maincontent h1{
     font-family: "Times New Roman", Times, serif;
@@ -151,11 +152,9 @@ div > a{
 }
 #subcontent{
     top: 30px;
-    height: 100%;
-    margin-left: 70px;
-    margin-right: 10px;
+    right: 10px;
     width: 40%;
-    float: left;
+    position: absolute;
 }
 #subcontent h1{
     font-family: "Times New Roman", Times, serif;
@@ -176,6 +175,7 @@ h2{
     margin-top: 40px;
     color: #797066;
 }
+
 #subcontent ul{
     font-size: 1.0em;
 	line-height: 2em;
