@@ -46,12 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
 #container{
-    width: 960px;
+    width: 700px;
     height: auto;
-    background-color: #eae7d2;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -66,7 +63,7 @@ table {
     width: 100%;
     color: #eae7d2;
     background-color: #51473d;
-    font-family: "Times New Roman", Times, serif;
+    font-family: Times New Roman, Times, serif;
     font-style: italic;
     font-size: 0.9em;
     text-align: right;
@@ -88,7 +85,6 @@ div > a{
     margin-left: 20px;
     margin-top: 10px;
     position: absolute;
-    text-align: center;
     display: table;
     width: 80%;
 
@@ -96,13 +92,12 @@ div > a{
 #menu ul li{
     display:table-cell;   
     width: auto;
-   
-    
 }
-#menu ul li a{
-	font-size: 0.9em;
+#menu li a{
+	font-size: 0.8em;
 	line-height: 40px;
-	font-family: Verdana, Arial, Sans Serif;
+	text-align: center;
+	font-family: "Verdana", Arial, Sans Serif;
 	text-decoration: none;
 	color: #eae7d2;
 	text-transform: capitalize;
@@ -113,30 +108,27 @@ div > a{
 }
 #menu a:hover {background-color: #9c9084; text-decoration: none; }
 
-.active{
+#menu li.active a{
     background-color: #eae7d2;
     color: #797066;
 }
-
 #content{
     background-color: #eae7d2;
-    height: 470px;
+    height: 440px;
     position: relative;
 }
 #maincontent{
-    width: 50%;
-    left: 15px;
-    top: 30px;
-    bottom: 30px;
-    background-color: #eae7d2;
+    width: 410px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border-right: 1px dashed #51473d;
-    position: absolute;
 }
 #maincontent h1{
     font-family: "Times New Roman", Times, serif;
     font-size: 2em;
     margin-bottom: 20px;
-    width: 50%;
     color: #797066;
 }
 #maincontent img{
@@ -145,21 +137,20 @@ div > a{
 }
 #maincontent p{
     font-size: 0.9em;
-	line-height: 2em;
-	font-family: Verdana, Arial, sans-serif;
+	line-height: 1.7;
+	font-family: "Verdana", Arial, sans-serif;
 	color: #797066;
 	margin-right: 10px;
 }
 #subcontent{
-    top: 30px;
-    right: 10px;
-    width: 40%;
-    position: absolute;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 240px;
+    float: left;
 }
 #subcontent h1{
     font-family: "Times New Roman", Times, serif;
     font-size: 1.3em;
-    margin-top: 40px;
     margin-bottom: 20px;
     color: #797066;
 }
@@ -169,6 +160,7 @@ div > a{
 	font-family: Verdana, Arial, sans-serif;
 	color: #797066;
 }
+
 h2{
     font-family: "Times New Roman", Times, serif;
     font-size: 1.0em;
@@ -181,21 +173,21 @@ h2{
 	line-height: 2em;
 	font-family: Verdana, Arial, sans-serif;
 	color: #797066;
-    
 }
+
 #subcontent a:link {text-decoration: underline; }
 #subcontent a:visited {color: purple; text-decoration: underline; }
 #subcontent a:hover {background-color: #9c9084; text-decoration: underline; }
 #subcontent a:active {color: orange; text-decoration: none; }
 
 #bottomcontent{
-    margin-left: 10px;
     font-size: 0.7em;
 	line-height: 2em;
 	font-family: Verdana, Arial, sans-serif;
 	font-style: italic;
 	color: #797066;
+	clear: both;
 	position: absolute;
 	bottom: 10px;
-	left: 10px;
+	left: 20px;
 }
